@@ -72,7 +72,7 @@ template<typename DerivedPolicy,
          typename RandomAccessIterator1,
          typename Size,
          typename RandomAccessIterator2>
-  void trivial_copy_n(execution_policy<DerivedPolicy> &exec,
+  void trivial_copy_n(execution_policy<DerivedPolicy> &,
                       RandomAccessIterator1 first,
                       Size n,
                       RandomAccessIterator2 result)
